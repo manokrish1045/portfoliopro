@@ -27,20 +27,20 @@ const Contact = () => {
           <article className='contact_option'>
             <MdOutlineEmail className='contact_icon' />
             <h4>Email</h4>
-            <h5>difgioeoisnwi</h5>
-            <a href="dufyghuheu">Send a Message</a>
+            <h5>Mano</h5>
+            <a href="manofullstackdeveloper2000@gmail.com">Send a Message</a>
           </article>
           <article className='contact_option'>
             <BsMessenger className='contact_icon' />
             <h4>Messenger</h4>
-            <h5>difgioeoisnwi</h5>
-            <a href="dufyghuheu">Send a Message</a>
+            <h5>Mano</h5>
+            <a href="https://messenger.com">Send a Message</a>
           </article>
           <article className='contact_option'>
             <AiOutlineInstagram className='contact_icon' />
             <h4>Instagram</h4>
-            <h5>difgioeoisnwi</h5>
-            <a href="dufyghuheu">Send a Message</a>
+            <h5>Mano</h5>
+            <a href="https://instagram.com">Send a Message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>

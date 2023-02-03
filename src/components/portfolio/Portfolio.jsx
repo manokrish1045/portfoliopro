@@ -21,7 +21,7 @@ export const Portfolio = () => {
           </div>
           <h3>This is aportfolio item title</h3>
           <div className='portfolio_item-cta'>
-            <a href='https://github.com' className='btn' target='_blank'> Github</a>
+            <a href='https://facebook.com' className='btn' target='_blank'> Github</a>
           </div>
         </article>
         <article className='portfolio_item'>
@@ -30,7 +30,7 @@ export const Portfolio = () => {
           </div>
           <h3>This is aportfolio item title</h3>
           <div className='portfolio_item-cta'>
-            <a href='https://github.com' className='btn' target='_blank'> Github</a>
+            <a href='https://instagram.com' className='btn' target='_blank'> Github</a>
           </div>
         </article>
       </div>
