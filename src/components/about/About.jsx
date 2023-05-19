@@ -25,10 +25,11 @@ const About = () => {
             <article className='about_card'>
               <FcFolder className='about_icon' />
               <h5>Projects</h5>
-              <small>5+</small>
+              <small>2+</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe velit delectus, alias ipsum esse tempore laborum nesciunt voluptatibus nihil nobis adipisci nam et rerum minima suscipit, optio fuga ratione placeat!</p>
+          <h3>Hi I'm Mano</h3>
+          <p>I am a Dedicated and efficient full stack developer, having knowledges in application layers, presentation layers, and databases. Proficient in building and optimizing user-focused websites and applications. Judicious and creative when crafting effective websites, apps and platforms to propel competitive advantage and revenue growth.</p>
           <a href='#contact' className='btn btn-primary'> Let's Talk</a>
         </div>
       </div>

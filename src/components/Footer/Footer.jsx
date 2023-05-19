@@ -10,15 +10,15 @@ const Footer = () => {
             <ul className='foo_links'>
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#services">Services</a></li>
+                <li><a href="#experience">Skills</a></li>
+                {/* <li><a href="#services">Services</a></li> */}
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#reviews">Reviews</a></li>
+                {/* <li><a href="#reviews">Reviews</a></li> */}
             </ul>
             <div className='foo_socials'>
-                <a href="https://facebook.com"><BsFacebook /></a>
-                <a href="https://instagram.com"><AiOutlineInstagram /></a>
-                <a href="https://github.com"><AiFillGithub /></a>
+                {/* <a href="https://facebook.com"><BsFacebook /></a> */}
+                {/* <a href="https://instagram.com"><AiOutlineInstagram /></a> */}
+                <a href="https://github.com/manokrish1045"><AiFillGithub /></a>
 
             </div>
         </footer>

@@ -30,7 +30,7 @@ const Contact = () => {
             <h5>Mano</h5>
             <a href="manofullstackdeveloper2000@gmail.com">Send a Message</a>
           </article>
-          <article className='contact_option'>
+          {/* <article className='contact_option'>
             <BsMessenger className='contact_icon' />
             <h4>Messenger</h4>
             <h5>Mano</h5>
@@ -41,7 +41,7 @@ const Contact = () => {
             <h4>Instagram</h4>
             <h5>Mano</h5>
             <a href="https://instagram.com">Send a Message</a>
-          </article>
+          </article> */}
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='Name' placeholder='Your Full Name' required />

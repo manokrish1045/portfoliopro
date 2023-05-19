@@ -1,6 +1,6 @@
 .about_container {
     display: grid;
-    grid-template-columns: 35% 55%;
+    grid-template-columns: 20% 60%;
     gap: 25%;
 }
 
@@ -29,7 +29,7 @@
 
 .about_cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 }
 

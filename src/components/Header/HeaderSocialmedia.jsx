@@ -6,8 +6,7 @@ const HeaderSocialmedia = () => {
     return (
         <div className='header_media'>
             <a href="https://www.linkedin.com" type="text" target="_blank" rel='noreferrer'><AiFillLinkedin /></a>
-            <a href="https://www.github.com" type="text"><AiFillGithub /></a>
-            <a href="https://www.instagram.com" type="text"><AiFillInstagram /></a>
+            <a href="https://github.com/manokrish1045" type="text"><AiFillGithub /></a>
 
         </div>
     )
