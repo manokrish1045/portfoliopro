@@ -30,7 +30,7 @@ const About = () => {
           </div>
           <h3>Hi I'm Mano</h3>
           <p>I am a Dedicated and efficient full stack developer, having knowledges in application layers, presentation layers, and databases. Proficient in building and optimizing user-focused websites and applications. Judicious and creative when crafting effective websites, apps and platforms to propel competitive advantage and revenue growth.</p>
-          <a href='#contact' className='btn btn-primary'> Let's Talk</a>
+          {/* <a href='#contact' className='btn btn-primary'> Let's Talk</a> */}
         </div>
       </div>
 

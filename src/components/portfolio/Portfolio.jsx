@@ -6,26 +6,120 @@ export const Portfolio = () => {
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
       <div className='container portfolio_container'>
-        <article className='portfolio_item'>
-          <div className='portfolio_image'>
-            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwlwNJKO1KFxbms4b_tbhTaPX8mRJ3yK625A&usqp=CAU' alt=''></img>
+        <article className="portfolio_item">
+          <div className="portfolio_image">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwlwNJKO1KFxbms4b_tbhTaPX8mRJ3yK625A&usqp=CAU"
+              alt=""
+            ></img>
           </div>
           <h3>Moviepedia</h3>
-          <div className='portfolio_item-cta'>
-            <a href='https://github.com/manokrish1045/moviepedia.git' className='btn' target='_blank'> Github</a>
-            <a href='https://comfy-kringle-045889.netlify.app/' className='btn' target='_blank'> Live Demo</a>
-
+          <div className="portfolio_item-cta">
+            <a
+              href="https://github.com/manokrish1045/moviepedia.git"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Github
+            </a>
+            <a
+              href="https://mk-moviemania-20.netlify.app/"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Live Demo
+            </a>
           </div>
         </article>
-        <article className='portfolio_item'>
-          <div className='portfolio_image'>
-            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwlwNJKO1KFxbms4b_tbhTaPX8mRJ3yK625A&usqp=CAU' alt=''></img>
+        <article className="portfolio_item">
+          <div className="portfolio_image">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwlwNJKO1KFxbms4b_tbhTaPX8mRJ3yK625A&usqp=CAU"
+              alt=""
+            ></img>
+          </div>
+          <h3>Weather App</h3>
+          <div className="portfolio_item-cta">
+            <a
+              href="https://github.com/manokrish1045/weather-app.git"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Github
+            </a>
+            <a
+              href="https://mk-wheather-ap.netlify.app/"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio_item">
+          <div className="portfolio_image">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwlwNJKO1KFxbms4b_tbhTaPX8mRJ3yK625A&usqp=CAU"
+              alt=""
+            ></img>
           </div>
           <h3>Login,signup</h3>
-          <div className='portfolio_item-cta'>
-            <a href='https://github.com/manokrish1045/stack.git' className='btn' target='_blank'> Github</a>
-            <a href='https://iridescent-sopapillas-66e01e.netlify.app/' className='btn' target='_blank'> Live Demo</a>
-
+          <div className="portfolio_item-cta">
+            <a
+              href="https://github.com/manokrish1045/react-auth"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Github
+            </a>
+            <a
+              href="https://coruscating-sprite-17afc6.netlify.app/"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio_item">
+          <div className="portfolio_image">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwlwNJKO1KFxbms4b_tbhTaPX8mRJ3yK625A&usqp=CAU"
+              alt=""
+            ></img>
+          </div>
+          <h3> Blog App</h3>
+          <div className="portfolio_item-cta">
+            <a
+              href="https://github.com/manokrish1045/client-blog.git"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Github
+            </a>
+            <a
+              href="https://mano-blog2000.netlify.app/"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Live Demo
+            </a>
           </div>
         </article>
         {/* <article className='portfolio_item'>
