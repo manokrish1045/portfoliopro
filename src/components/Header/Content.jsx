@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 const Content = () => {
     return (
         <div className='content'>
@@ -7,5 +7,3 @@ const Content = () => {
         </div>
     )
 }
-
-export default Content
