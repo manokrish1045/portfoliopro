@@ -75,6 +75,20 @@ export const Portfolio = () => {
 
           </div>
         </article>
+        <article className="portfolio_item">
+          <div className="portfolio_image">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwlwNJKO1KFxbms4b_tbhTaPX8mRJ3yK625A&usqp=CAU"
+              alt=""
+            ></img>
+          </div>
+          <h3>Blog App</h3>
+          <div className='portfolio_item-cta'>
+            <a href='https://github.com/manokrish1045/client-blog.git' className='btn' target='_blank'> Github</a>
+            <a href='https://mano-blog2000.netlify.app/' className='btn' target='_blank'> Live Demo</a>
+
+          </div>
+        </article>
         {/* <article className='portfolio_item'>
           <div className='portfolio_image'>
             <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwlwNJKO1KFxbms4b_tbhTaPX8mRJ3yK625A&usqp=CAU' alt=''></img>
