@@ -70,8 +70,8 @@ export const Portfolio = () => {
           </div>
           <h3>Login,signup</h3>
           <div className='portfolio_item-cta'>
-            <a href='https://github.com/manokrish1045/stack.git' className='btn' target='_blank'> Github</a>
-            <a href='https://iridescent-sopapillas-66e01e.netlify.app/' className='btn' target='_blank'> Live Demo</a>
+            <a href='https://github.com/manokrish1045/stack.git' className='btn' target='_blank' rel="noreferrer" > Github</a>
+            <a href='https://iridescent-sopapillas-66e01e.netlify.app/' className='btn' target='_blank' rel="noreferrer" > Live Demo</a>
 
           </div>
         </article>
@@ -84,8 +84,8 @@ export const Portfolio = () => {
           </div>
           <h3>Blog App</h3>
           <div className='portfolio_item-cta'>
-            <a href='https://github.com/manokrish1045/client-blog.git' className='btn' target='_blank'> Github</a>
-            <a href='https://mano-blog2000.netlify.app/' className='btn' target='_blank'> Live Demo</a>
+            <a href='https://github.com/manokrish1045/client-blog.git' className='btn' target='_blank' rel="noreferrer" > Github</a>
+            <a href='https://mano-blog2000.netlify.app/' className='btn' target='_blank' rel="noreferrer" > Live Demo</a>
 
           </div>
         </article>
