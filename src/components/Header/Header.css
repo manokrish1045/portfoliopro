@@ -65,12 +65,18 @@ header {
 
 @media screen and (max-width : 600px) {
     .header {
-        height: 100vh;
+        height: 10vh;
     }
 
     .header_media,
     .scroll_down {
         display: none;
+    }
+
+    .header_container {
+        margin: auto;
+        padding: auto;
+        margin-left: 50px;
     }
 
 }

@@ -6,7 +6,7 @@ import { FcFolder } from 'react-icons/fc'
 const About = () => {
   return (
     <section id='about'>
-      <h5>Get To know</h5>
+      <h3>Get To know</h3>
       <h2>About Me</h2>
       <div className='container about_container'>
         <div className='about_me'>
@@ -19,13 +19,13 @@ const About = () => {
           <div className='about_cards'>
             <article className='about_card'>
               <FaAward className='about_icon' />
-              <h5>Experience</h5>
-              <small>Fresher</small>
+              <h3>Experience</h3>
+              <h4>Fresher</h4>
             </article>
             <article className='about_card'>
               <FcFolder className='about_icon' />
-              <h5>Projects</h5>
-              <small>2+</small>
+              <h3>Projects</h3>
+              <h4>2+</h4>
             </article>
           </div>
           <h3>Hi I'm Mano</h3>

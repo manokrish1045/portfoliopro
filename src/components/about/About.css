@@ -18,13 +18,13 @@
     height: 400px;
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
+    transform: rotate(0deg);
     transition: var(--transition);
     margin-top: 0;
 }
 
 .about_mepic:hover {
-    transform: rotate(0);
+    transform: rotate(10deg);
 }
 
 .about_cards {
@@ -70,6 +70,10 @@
 
 }
 
+#about {
+    text-align: center;
+}
+
 @media screen and (max-width : 1024px) {
     .about_container {
         grid-template-columns: 1fr;
@@ -88,15 +92,22 @@
 }
 
 @media screen and (max-width : 600px) {
+    .about_container {
+        margin-left: 40px;
+    }
+
     .about_me {
-        width: 65%;
+        width: 75%;
         margin: 0 auto 3rem;
 
     }
 
     .about_cards {
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin: 30px;
+        margin-left: 40px;
+        padding: autos;
     }
 
     .about_content {
@@ -104,6 +115,6 @@
     }
 
     .about_content p {
-        margin: 1.5rem 0;
+        margin: 1rem 0;
     }
 }
