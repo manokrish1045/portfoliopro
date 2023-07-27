@@ -96,12 +96,12 @@ export const Portfolio = () => {
             <img src={blog} alt='' className="imge1"></img>
 
           </div>
-          <h3>Blog App</h3>
+          <h3>Netflix</h3>
           <div className='portfolio_item-cta'>
-            <a href='https://github.com/manokrish1045/client-blog.git' className='btn' target='_blank' rel="noreferrer" >Frontrend Cod </a>
-            <a href='https://github.com/manokrish1045/blog-backend.git' className='btn' target='_blank' rel="noreferrer" > Backend Code</a>
+            <a href='https://github.com/manokrish1045/netflix.git' className='btn' target='_blank' rel="noreferrer" >Frontrend Cod </a>
+            <a href='https://github.com/manokrish1045/netflix-api.git' className='btn' target='_blank' rel="noreferrer" > Backend Code</a>
 
-            <a href='https://mano-blog2000.netlify.app/' className='btn' target='_blank' rel="noreferrer" > Live Demo</a>
+            <a href='https://helpful-basbousa-ef9668.netlify.app/' className='btn' target='_blank' rel="noreferrer" > Live Demo</a>
 
           </div>
         </article>
