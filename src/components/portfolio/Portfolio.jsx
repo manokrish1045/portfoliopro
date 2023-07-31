@@ -3,11 +3,17 @@ import "./Portfolio.css";
 import Vshare from "../../assests/vshare.png"
 import inchat from "../../assests/inchat.png"
 import blog from "../../assests/blog.png"
+import blog1 from "../../assests/blog1.png"
 export const Portfolio = () => {
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h2>Projects</h2>
+      <div className="cred">
+        <p>Use this credentials to Login</p>
+        <p>Email : myblogs@gmail.com</p>
+        <p>Password : Blog@1234</p>
+      </div>
       <div className='container portfolio_container'>
         <article className='portfolio_item'>
           <div className='portfolio_image'>
@@ -80,14 +86,14 @@ export const Portfolio = () => {
         </article>
         <article className="portfolio_item">
           <div className="portfolio_image">
-            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwlwNJKO1KFxbms4b_tbhTaPX8mRJ3yK625A&usqp=CAU' alt='' className="imge1"></img>
+            <img src={blog1} alt='' className="imge1"></img>
 
           </div>
-          <h3>Moviepedia</h3>
+          <h3>My Blog</h3>
           <div className='portfolio_item-cta'>
-            <a href='https://github.com/manokrish1045/moviepedia.git' className='btn' target='_blank' rel="noreferrer" > Frontrend Code</a>
-            <a href='https://github.com/manokrish1045/stack.git' className='btn' target='_blank' rel="noreferrer" > Backend Code</a>
-            <a href='https://mk-moviemania-20.netlify.app//' className='btn' target='_blank' rel="noreferrer" > Live Demo</a>
+            <a href='https://github.com/manokrish1045/final-blog.gitt' className='btn' target='_blank' rel="noreferrer" > Frontrend Code</a>
+            <a href='https://github.com/manokrish1045/serverforblog.git' className='btn' target='_blank' rel="noreferrer" > Backend Code</a>
+            <a href='https://manos-blog.netlify.app/' className='btn' target='_blank' rel="noreferrer" > Live Demo</a>
 
           </div>
         </article>
@@ -118,11 +124,7 @@ export const Portfolio = () => {
         </article> */}
 
       </div>
-      <div className="cred">
-        <p>Use this credentials to Login</p>
-        <p>Email : myblogs@gmail.com</p>
-        <p>Password : Blog@1234</p>
-      </div>
+
 
     </section>
   );
