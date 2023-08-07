@@ -11,7 +11,7 @@ export const Portfolio = () => {
       <h2>Projects</h2>
       <div className="cred">
         <p>Use this credentials to Login</p>
-        <p>Email : myblogs@gmail.com</p>
+        <p>Email or username : myblogs@gmail.com</p>
         <p>Password : Blog@1234</p>
       </div>
       <div className='container portfolio_container'>
@@ -22,7 +22,7 @@ export const Portfolio = () => {
           <h3>VShare</h3>
           <div className="portfolio_item-cta">
             <a
-              href="https://github.com/manokrish1045/vshare-client.git"
+              href="https://github.com/manokrish1045/client-media.git"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -30,7 +30,7 @@ export const Portfolio = () => {
               Frontend Code
             </a>
             <a
-              href="https://github.com/manokrish1045/vhare-server.git"
+              href="https://github.com/manokrish1045/socmedia-server.git"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -38,7 +38,7 @@ export const Portfolio = () => {
               Backend code
             </a>
             <a
-              href="https://dapper-taffy-cbec5e.netlify.app/"
+              href="https://vshare-media.netlify.app/"
               className="btn"
               target="_blank"
               rel="noreferrer"
