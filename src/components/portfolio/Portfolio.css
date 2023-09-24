@@ -1,69 +1,68 @@
 .portfolio_container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2.5rem;
-    margin-left: 200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+  margin-left: 200px;
 }
 
 .portfolio_item {
-    height: 400px;
-    width: 500px;
-    background: var(--color-bg-variant);
-    padding: 1.9rem;
-    border-radius: 2rem;
-    border: 3px solid transparent;
-    transition: var(transition);
+  height: 400px;
+  width: 500px;
+  background: var(--color-bg-variant);
+  padding: 1.9rem;
+  border-radius: 2rem;
+  border: 3px solid transparent;
+  transition: var(transition);
 }
 
 .portfolio_item:hover {
-    border-color: var(--color-primary-variant);
-    background: transparent;
+  border-color: var(--color-primary-variant);
+  background: transparent;
 }
 
 .portfolio_image {
-    border-radius: 1.5rem;
-    overflow: hidden;
+  border-radius: 1.5rem;
+  overflow: hidden;
 }
 
 .portfolio_item h3 {
-    margin: 0.7rem 0 1rem;
+  margin: 0.7rem 0 1rem;
 }
 
 .portfolio_item-cta {
-    display: flex;
-    gap: 2rem;
-    margin-bottom: 2rem;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 .imge1 {
-    width: 230px;
-    height: 220px;
-    margin-left: 90px;
-    border-radius: 20px;
+  width: 230px;
+  height: 220px;
+  margin-left: 90px;
+  border-radius: 20px;
 }
 
 .cred {
-    height: auto;
-    width: auto;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    text-align: center;
+  height: auto;
+  width: auto;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-align: center;
 }
 
-
-@media screen and (max-width:1024px) {
-    .portfolio_container {
-        grid-template-columns: 1fr;
-        gap: 1.2rem;
-    }
+@media screen and (max-width: 1024px) {
+  .portfolio_container {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
 }
 
-@media screen and (max-width:600px) {
-    .portfolio_container {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+@media screen and (max-width: 600px) {
+  .portfolio_container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }

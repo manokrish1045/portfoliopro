@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600;900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600;900&display=swap");
 
 * {
   margin: 0;
@@ -27,25 +26,39 @@
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
-
 }
 
 html {
   scroll-behavior: smooth;
 }
 
+/* width */
 ::-webkit-scrollbar {
-  display: none;
+  width: 10px;
 }
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #29204d;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #feffff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #21d1da;
+}
 body {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.5;
+
   /* background-image: url(./assests/bg-texture3.png) */
 }
-
 
 /* // General style */
 .container {
@@ -67,16 +80,15 @@ h1 {
 
 section {
   margin-top: 8rem;
-
 }
 
-section>h2,
-section>h5 {
+section > h2,
+section > h5 {
   text-align: center;
   color: var(--color-light);
 }
 
-section>h2 {
+section > h2 {
   color: var(--color-light);
   margin-bottom: 3rem;
 }
@@ -105,7 +117,6 @@ a:hover {
   background: var(--color-white);
   color: var(--color-bg);
   border-color: transparent;
-
 }
 
 .btn-primary {
@@ -120,17 +131,17 @@ img-1 {
 }
 
 /* media queries */
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
   }
 
   section {
-    margin-top: 6rem
+    margin-top: 6rem;
   }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
   }

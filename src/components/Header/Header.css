@@ -1,82 +1,79 @@
 header {
-    height: 100vh;
-    padding-top: 7rem;
-    overflow: hidden;
+  height: 100vh;
+  padding-top: 7rem;
+  overflow: hidden;
 }
 
 .header_container {
-    text-align: center;
-    height: 100%;
-    position: relative;
+  text-align: center;
+  height: 100%;
+  position: relative;
 }
 
 /* for pdf and talks */
 .content {
-    margin-top: 2.5rem;
-    display: flex;
-    gap: 1.2rem;
-    justify-content: center;
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
 }
 
 /* for social media links */
 .header_media {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.6rm;
-    position: absolute;
-    left: 0;
-    bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rm;
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
 }
 
 .header_media::after {
-    content: "";
-    width: 1px;
-    height: 2rem;
-    background: var(--color-primary);
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
 }
 
 /* for my image */
 .my {
-    width: 20rem;
-    height: 20rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    padding: 5rem 1.5rem 1.5rem 1.5 rem;
-
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  left: calc(50% - 11rem);
+  margin-top: 4rem;
+  padding: 5rem 1.5rem 1.5rem 1.5 rem;
 }
 
 .scroll_down {
-    position: absolute;
-    right: -2.3rem;
-    bottom: 5rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 1rem;
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 1rem;
 }
 
-@media screen and (max-width : 1024px) {
-    .header {
-        height: 70vh;
-    }
-
+@media screen and (max-width: 1024px) {
+  .header {
+    height: 70vh;
+  }
 }
 
-@media screen and (max-width : 600px) {
-    .header {
-        height: 10vh;
-    }
+@media screen and (max-width: 600px) {
+  .header {
+    height: 10vh;
+  }
 
-    .header_media,
-    .scroll_down {
-        display: none;
-    }
+  .header_media,
+  .scroll_down {
+    display: none;
+  }
 
-    .header_container {
-        margin: auto;
-        padding: auto;
-        margin-left: 50px;
-    }
-
+  .header_container {
+    margin: auto;
+    padding: auto;
+    margin-left: 50px;
+  }
 }
